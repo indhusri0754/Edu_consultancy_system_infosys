@@ -1,0 +1,44 @@
+.blur-background {
+  background-image: url('/assets/loginpage.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.register-form {
+  margin-top:12vh;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border-radius: 5px;
+}
+.btn-primary {
+  border-radius: 5px;
+}
+
+.text-danger {
+  font-size: 0.9em;
+  color: red; /* Added color red for consistency */
+}
+
+.btn-link {
+  font-weight: bold;
+}
+
+.login-forms h1 {
+  font-size: 2em;
+}
+.password-input-group {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}

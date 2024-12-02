@@ -1,0 +1,40 @@
+<div class="admin-container">
+  <header>
+    <h1>Admin</h1>
+  </header>
+
+  <div class="admin-sections">
+    <div class="section">
+      <h2>User Management</h2>
+      <button class="btn" (click)="addUser()">Add User</button>
+      <button class="btn" (click)="editUser()">Edit User</button>
+      <button class="btn" (click)="deleteUser()">Delete User</button>
+    </div>
+
+    <div class="section">
+      <h2>Subscription Management</h2>
+      <button class="btn" (click)="viewSubscriptions()">View Subscriptions</button>
+      <button class="btn" (click)="renewSubscriptions()">Renew Subscriptions</button>
+      <button class="btn" (click)="removeExpiredUsers()">Remove Expired Users</button>
+    </div>
+
+    <div class="section">
+      <h2>Reports and Analytics</h2>
+      <div class="chart-container">
+        <canvas id="learningStatusChart"></canvas>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Payment Management</h2>
+      <button class="btn" (click)="viewPayments()">View Payments</button>
+      <button class="btn" (click)="validatePayments()">Validate Payments</button>
+    </div>
+
+    <div class="section">
+      <h2>Feedback</h2>
+      <textarea placeholder="Enter feedback here..."></textarea>
+      <button class="btn" (click)="respondToFeedback()">Respond</button>
+    </div>
+  </div>
+</div>

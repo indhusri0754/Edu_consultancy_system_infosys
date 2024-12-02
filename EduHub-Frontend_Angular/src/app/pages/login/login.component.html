@@ -1,0 +1,95 @@
+<div class="container-fluid blur-background">
+  <div class="row justify-content-center align-items-center">
+    <div class="col-md-4">
+      <div class="login-form">
+        <div class="login-forms">
+          <app-login-signup-buttons (login)="navigateToLogin()" (signup)="navigateToSignup()"></app-login-signup-buttons>
+          
+          <!-- Login Form -->
+          <div *ngIf="formState === 'login'">
+            <h1 class="text-center mb-4 mt-3">Login</h1>
+            <form [formGroup]="loginForm" (ngSubmit)="loginUser()" class="shadow p-3 mb-3 bg-white rounded">
+              <div *ngIf="errorMessage" class="alert alert-danger alert-dismissible" role="alert">
+                {{ errorMessage }}
+              </div>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" formControlName="email" class="form-control">
+                <span *ngIf="email?.touched">
+                  <span *ngIf="email?.errors?.['required']" class="text-danger">Email is required</span>
+                  <span *ngIf="email?.errors?.['email'] && !email?.errors?.['required']" class="text-danger">Invalid email format</span>
+                </span>
+              </div>
+              
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <div class="password-input-group">
+                  <input type="{{ passwordVisible ? 'text' : 'password' }}" id="password" formControlName="password" class="form-control">
+                  <i class="password-toggle-icon fas" [ngClass]="passwordVisible ? 'fa-eye-slash' : 'fa-eye'" (click)="togglePasswordVisibility()"></i>
+                </div>
+                <span *ngIf="password?.touched">
+                  <span *ngIf="password?.errors?.['required']" class="text-danger">Password is required</span>
+                  <span *ngIf="password?.errors?.['minlength'] && !password?.errors?.['required']" class="text-danger">Password must be at least 8 characters long</span>
+                </span>
+              </div>
+              
+              <!-- Role Selection -->
+              <div class="mb-3">
+                <label class="form-label">Role</label>
+                <div>
+                  <div class="form-check">
+                    <input type="radio" id="roleParent" formControlName="role" class="form-check-input" value="Parent">
+                    <label for="roleParent" class="form-check-label">Parent</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" id="roleStudent" formControlName="role" class="form-check-input" value="Student">
+                    <label for="roleStudent" class="form-check-label">Student</label>
+                  </div>
+                  <div class="form-check">
+                    <input type="radio" id="roleMentor" formControlName="role" class="form-check-input" value="Mentor">
+                    <label for="roleMentor" class="form-check-label">Mentor</label>
+                  </div>
+                </div>
+                <span *ngIf="role?.touched && role?.errors?.['required']" class="text-danger">Please select a role</span>
+              </div>
+              
+              <button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary">Login</button>
+            </form>
+          </div>
+
+          <!-- Reset Password Form -->
+          <div *ngIf="formState === 'reset'">
+            <h2 class="text-center mb-4 mt-3">Reset Password</h2>
+            <form [formGroup]="resetPasswordForm" (ngSubmit)="resetPassword()" class="shadow p-3 mb-3 bg-white rounded">
+              <div class="mb-3">
+                <label for="resetEmail" class="form-label">Email</label>
+                <input type="email" id="resetEmail" formControlName="resetEmail" class="form-control">
+                <span *ngIf="resetEmail?.touched">
+                  <span *ngIf="resetEmail?.errors?.['required']" class="text-danger">Email is required</span>
+                  <span *ngIf="resetEmail?.errors?.['email'] && !resetEmail?.errors?.['required']" class="text-danger">Invalid email format</span>
+                </span>
+              </div>
+              
+              <button type="submit" [disabled]="resetPasswordForm.invalid" class="btn btn-primary">Reset Password</button>
+            </form>
+          </div>
+          
+          <div class="text-right">
+            <button type="button" class="btn btn-link" (click)="toggleFormState($event)">
+              {{ formState === 'login' ? 'Forgot Password?' : 'Login Form' }}
+            </button>
+          </div>
+          
+          <div class="row justify-content-center">
+            <div class="col text-center">
+              <p>If you don't have an account, click <button type="button" class="btn btn-link border-info" (click)="toggleLogin()">here</button> to Register.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p-toast key="toast1"></p-toast>
