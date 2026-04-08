@@ -1,0 +1,59 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">Admin Dashboard</h2>
+
+  <!-- Add User Form -->
+  <form #addUserForm="ngForm" (ngSubmit)="addUser(addUserForm)">
+    <div class="mb-3">
+      <label for="username" class="form-label">Username</label>
+      <input
+        type="text"
+        id="username"
+        [(ngModel)]="newUser.username"
+        name="username"
+        required
+        class="form-control"
+        placeholder="Enter username"
+      />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input
+        type="email"
+        id="email"
+        [(ngModel)]="newUser.email"
+        name="email"
+        required
+        class="form-control"
+        placeholder="Enter email"
+      />
+    </div>
+    <button type="submit" class="btn btn-success" [disabled]="!addUserForm.valid">
+      Add User
+    </button>
+  </form>
+
+  <!-- Users List -->
+  <h3 class="mt-5">Users</h3>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.id }}</td>
+        <td>{{ user.username }}</td>
+        <td>{{ user.email }}</td>
+        <td>
+          <button class="btn btn-danger" (click)="deleteUser(user.id)">
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

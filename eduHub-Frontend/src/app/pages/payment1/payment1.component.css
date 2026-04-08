@@ -1,0 +1,805 @@
+.sub_564-721 {
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #f8f8f8;
+  width: 1440px;
+  height: 2291px;
+}
+.text-edu_564-722 {
+  top: 50px;
+  left: 80px;
+  position: absolute;
+  display: flex;
+  color: #000000;
+  font-size: 24px;
+  font-family: Press Start 2P;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 72px;
+  height: 24px;
+}
+
+.frame-11_564-723 {
+  padding: 10px 24px 10px 24px;
+  top: 40px;
+  left: 1220px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #000000;
+}
+.text-get-started_564-724 {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.group-19_564-725 {
+  top: 48px;
+  left: 504px;
+  position: absolute;
+  display: flex;
+  width: 433px;
+  height: 27px;
+}
+.text-join-a-course_564-726 {
+  color: #616161;
+  font-size: 18px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 123px;
+  height: 27px;
+}
+
+.text-home_564-727 {
+  color: #616161;
+  font-size: 18px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 54px;
+  height: 27px;
+}
+
+.text-hire-a-mentor_564-728 {
+  color: #616161;
+  font-size: 18px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 120px;
+  height: 27px;
+}
+
+.text-blog_564-729 {
+  color: #616161;
+  font-size: 18px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 40px;
+  height: 27px;
+}
+
+.group-30_564-730 {
+  top: 308px;
+  left: 80px;
+  position: absolute;
+  display: flex;
+  width: 406px;
+  height: 177px;
+}
+.text-choose-the-best-plan-for-you-_564-731 {
+  color: #000000;
+  font-size: 48px;
+  font-family: DM Sans;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 406px;
+  height: 124px;
+  margin-top: -250px;
+}
+
+.text-professional-plans_564-732 {
+  color: #000000;
+  font-size: 22px;
+  font-family: DM Sans;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 183px;
+  height: 29px;
+}
+
+.frame-72_564-733 {
+  bottom: 1300px;
+  left: 66px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 25px;
+  background: #222222;
+  width: 420px;
+  height: 750px;
+}
+.text--_564-734 {
+  top: 185px;
+  left: 180px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 10px;
+  height: 24px;
+}
+
+.text-basic-plan-member_564-735 {
+  top: 54px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 187px;
+  height: 84px;
+}
+
+.text-25-0---month-billed-annually-you_564-736 {
+  top: 202px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: left;
+  width: 261px;
+  height: 77px;
+}
+
+.frame-95_564-737 {
+  padding: 18px 48px 18px 48px;
+  top: 335px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+.text-select-basic_564-738 {
+  color: #000000;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.text-access-to-sample-courses-basic-study-tools-community-access--limited--weekly-progress-summary-support-access_564-739 {
+  top: 427px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 261px;
+  height: 150px;
+}
+
+.frame-94_564-740 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 118px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.text---10-_564-741 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.frame-93_564-742 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #fa5d29;
+}
+.text-save-10--_564-743 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.frame-95_564-744 {
+  bottom: 1300px;
+  left: 510px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 25px;
+  background: #222222;
+  width: 420px;
+  height: 750px;
+}
+.text--_564-745 {
+  top: 186px;
+  left: 187px;
+  position: absolute;
+  display: flex;
+  color: #000000;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 10px;
+  height: 24px;
+}
+
+.text-standard-plan-member_564-746 {
+  top: 54px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 187px;
+  height: 84px;
+}
+
+.text-40-0---month-billed-annually-you_564-747 {
+  top: 202px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: left;
+  width: 277px;
+  height: 77px;
+}
+
+.frame-95_564-748 {
+  padding: 18px 48px 18px 48px;
+  top: 335px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+.text-select-standard_564-749 {
+  color: #000000;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.text-all-basic-features-30--discount-on-uni-courses-30--discount-for-products-full-access-to-course-library-self-assessment-community-access--limited--support-access_564-750 {
+  top: 427px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 261px;
+  height: 210px;
+}
+
+.frame-94_564-751 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 118px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #ffffff;
+}
+.text---15-_564-752 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.frame-93_564-753 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #fa5d29;
+}
+.text-save-20--_564-754 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.frame-74_564-755 {
+  bottom: 1300px;
+  left: 954px;
+  position: absolute;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 25px;
+  background: #000000;
+  width: 420px;
+  height: 750px;
+}
+.text--_564-756 {
+  top: 186px;
+  left: 186px;
+  position: absolute;
+  display: flex;
+  color: #222222;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 10px;
+  height: 24px;
+}
+
+.text-premium-plan-member_564-757 {
+  top: 54px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 187px;
+  height: 84px;
+}
+
+.text-50-0---month-billed-annually-you_564-758 {
+  top: 202px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  line-height: 30px;
+  text-decoration: none;
+  text-align: left;
+  width: 286px;
+  height: 77px;
+}
+
+.frame-95_564-759 {
+  padding: 18px 48px 18px 48px;
+  top: 335px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 18px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+}
+.text-select-premium_564-760 {
+  color: #000000;
+  font-size: 16px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.text-all-basic-features-45--discount-on-uni-courses-45--discount-for-products-full-access-to-core-course-personal-assistance-advanced-study-tools-interactive-quizzes-personalized-feedback_564-761 {
+  top: 427px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Poppins;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 261px;
+  height: 240px;
+}
+
+.frame-94_564-762 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 118px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #f8f8f8;
+}
+.text---25-_564-763 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.frame-93_564-764 {
+  padding: 2px 4px 2px 4px;
+  top: 281px;
+  left: 44px;
+  position: absolute;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 2px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #fa5d29;
+}
+.text-save-35--_564-765 {
+  color: #000000;
+  font-size: 12px;
+  font-family: Poppins;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+}
+
+.group-29_564-766 {
+  top: 1655px;
+  left: 79px;
+  position: absolute;
+  display: flex;
+  width: 1282px;
+  height: 464px;
+}
+.text-edu_564-767 {
+  color: #000000;
+  font-size: 24px;
+  font-family: Press Start 2P;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 400;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 72px;
+  height: 24px;
+}
+
+.text-faqs-about-us-contact-us_564-768 {
+  color: #000000;
+  font-size: 22px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 117px;
+  height: 165px;
+}
+
+.text-directory-conferences_564-769 {
+  color: #000000;
+  font-size: 22px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 133px;
+  height: 110px;
+}
+
+.text-courses-directory-market_564-770 {
+  color: #000000;
+  font-size: 22px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 97px;
+  height: 165px;
+}
+
+.text-cookies-policy_564-771 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 133px;
+  height: 55px;
+}
+
+.text-legal-terms_564-772 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 108px;
+  height: 55px;
+}
+
+.text-privacy-policy_564-773 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 126px;
+  height: 55px;
+}
+
+.text-instagram_564-774 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 90px;
+  height: 55px;
+}
+
+.text-linkedin_564-775 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 75px;
+  height: 55px;
+}
+
+.text-twitter_564-776 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 64px;
+  height: 55px;
+}
+
+.text-pinterest_564-777 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 300;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 82px;
+  height: 55px;
+}
+
+.text-connect-_564-778 {
+  color: #000000;
+  font-size: 20px;
+  font-family: DM Sans;
+  line-height: 55px;
+  letter-spacing: 0%;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+  text-wrap: nowrap;
+  width: 86px;
+  height: 55px;
+}
+
+.line-51_564-779 {
+  display: flex;
+}
