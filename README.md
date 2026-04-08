@@ -1,7 +1,7 @@
 # InfosysSpringboard_Intership5.0_EDUConsultancy_Team3
 
 # Project Overview
-The project aims to provide a platform for students and consultants to interact and manage various educational services. The backend is developed using Spring Boot with a MySQL database for persistence, and the frontend is powered by Angular, which interacts with the backend via REST APIs.
+The project aims to provide a platform for students and consultants to interact and manage various educational services. The backend is developed using Spring Boot with a MySQL database for persistence, and the frontend is powered by React, which interacts with the backend via REST APIs.
 
 # Key Features:
 RESTful API using Spring Boot and Spring Data JPA
