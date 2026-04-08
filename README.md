@@ -6,7 +6,7 @@ The project aims to provide a platform for students and consultants to interact 
 # Key Features:
 RESTful API using Spring Boot and Spring Data JPA
 MySQL database for data storage
-Angular frontend for a dynamic user interface
+React frontend for a dynamic user interface
 Postman for testing API endpoints
 Built and managed with Maven
 Technologies Used
@@ -18,7 +18,7 @@ MySQL (Database) v8.0.40
 Maven (Build tool)
 
 ## Frontend:
-Angular
+React
 
 ## API Testing:
 Postman
